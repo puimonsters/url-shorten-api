@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    phpinfo();
+    exit;
+    //return view('welcome');
 });
